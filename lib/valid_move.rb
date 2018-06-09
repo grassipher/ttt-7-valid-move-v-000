@@ -3,7 +3,7 @@ def valid_move?(board,index)
   if (index>= board.length)
     return false
   else
-    return !postion_taken?(board,index)
+    return postion_taken?(board,index)
   end
 end
 
