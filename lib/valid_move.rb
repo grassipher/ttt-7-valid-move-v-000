@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def invalid_move?(board,index)
+def valid_move?(board,index)
   return !position_taken?
 end
 
